@@ -1,0 +1,127 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	width:100%; /* Establecemos que el header abarque el 100% del documento */
+	overflow:hidden; /* Eliminamos errores de float */
+	background:#2c3e50;
+	margin-bottom:0px;
+}
+ 
+.wrapper {
+	width:100%; /* Establecemos que el ancho sera del 90% */
+	max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+	margin:auto; /* Centramos los elementos */
+	overflow:hidden; /* Eliminamos errores de float */
+}
+ 
+.logotipo {
+	color:white;
+    font-size:27px;
+    font-family: Montserrat;
+	line-height:125px;
+	float:left;
+}
+ 
+header nav {
+	float:right;
+    line-height:100px;
+
+ 
+}
+
+header nav a {
+	display:inline-block;
+    color:#fff;
+    text-decoration: none; /*Para quitar el subrayado a las palabras del menú*/
+	padding:10px 20px;
+	line-height:normal;
+	font-size:18px;
+	font-weight:bold;
+
+}
+
+.one{
+	background: #18bc9c;
+	width: 100%;
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 40px;	
+	text-align: center;
+
+
+}
+.two{
+    background: white;
+	color: black;
+	text-align: center;
+
+	
+}
+h1{
+	text-align:center;
+}
+
+.container1{ 
+width: 100%;
+left: 0px;
+display: inline-block;
+position: relative;
+}
+
+.container1 img{
+	width: 30%;
+	display: inline-block;
+	position: relative;
+	padding: 10px; 
+}
+
+.three{
+	width: 100%;
+	height: 200px;
+	left: 60px;
+	right: 60px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	background: #18bc9c;
+	color: white;
+	
+
+}
+
+.container3{
+	width: 100%;
+	height: 300px;
+	background: white;
+	color: black;
+	
+}
+.container2{
+
+	margin: 40px;
+	padding-left: 220px;
+	padding-right: 220px;
+	border-spacing: 30px 45px;
+	font-size: 14px;
+}
+
+.five{
+	width: 100%;
+	height: 400px;
+	left: 80px;
+	background:#2c3e50;
+	color: white;
+}
+
+.container4{
+	width: 100%;
+	padding-left: 100px;
+	padding-right: 100px;
+	border-spacing: 100px 105px;
+	font-size: 14px;
+	align-content: center;
+	
+}
+
+
